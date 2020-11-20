@@ -1,0 +1,3178 @@
+{
+  "type" : "record",
+  "name" : "SkattemeldingUtflatet",
+  "fields" : [ {
+    "name" : "aksjeIAksjonaerregisteret",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AksjeIAksjonaerregisteret",
+        "fields" : [ {
+          "name" : "selskapetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:selskapetsNavn"
+        }, {
+          "name" : "selskapetsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:selskapetsOrganisasjonsnummer"
+        }, {
+          "name" : "aksjeklasse",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aksjeklasse"
+        }, {
+          "name" : "isinnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:isinnummer"
+        }, {
+          "name" : "antallAksjer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallAksjer"
+        }, {
+          "name" : "verdiFoerVerdsettingsrabattForAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdiFoerVerdsettingsrabattForAksje"
+        }, {
+          "name" : "skattepliktigUtbytte",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigUtbytte"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvAksje"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvAksje"
+        }, {
+          "name" : "benyttetSkjermingsfradragPaaUtbytte",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradragPaaUtbytte"
+        }, {
+          "name" : "benyttetSkjermingsfradragPaaGevinstVedRealisasjonAvAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradragPaaGevinstVedRealisasjonAvAksje"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aksjeIAksjonaerregisteret"
+  }, {
+    "name" : "aksjeIkkeIAksjonaerregisteret",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AksjeIkkeIAksjonaerregisteret",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "kontofoerersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontofoerersNavn"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "selskapetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:selskapetsNavn"
+        }, {
+          "name" : "selskapetsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:selskapetsOrganisasjonsnummer"
+        }, {
+          "name" : "finansproduktidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktidentifikator"
+        }, {
+          "name" : "finansproduktidentifikatortype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktidentifikatortype"
+        }, {
+          "name" : "antallAksjer",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallAksjer"
+        }, {
+          "name" : "verdiFoerVerdsettingsrabattForAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdiFoerVerdsettingsrabattForAksje"
+        }, {
+          "name" : "skattepliktigUtbytte",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigUtbytte"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvAksje"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvAksje",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvAksje"
+        }, {
+          "name" : "benyttetSkjermingsfradrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradrag"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aksjeIkkeIAksjonaerregisteret"
+  }, {
+    "name" : "aksjesparekonto",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Aksjesparekonto",
+        "fields" : [ {
+          "name" : "navn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "verdiFoerVerdsettingsrabattForAksjedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdiFoerVerdsettingsrabattForAksjedel"
+        }, {
+          "name" : "formuesverdiForKontanter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForKontanter"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjon",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjon"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjon",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjon"
+        }, {
+          "name" : "benyttetSkjermingsfradrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradrag"
+        }, {
+          "name" : "finansprodukt",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "FinansproduktIAksjesparekonto",
+              "fields" : [ {
+                "name" : "isinnummer",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:isinnummer"
+              }, {
+                "name" : "finansproduktetsNavn",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktetsNavn"
+              }, {
+                "name" : "antall",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antall"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansprodukt"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aksjesparekonto"
+  }, {
+    "name" : "andelAvInntektFelleskostnaderFormueOgGjeldIBoligsameie",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AndelAvInntektFelleskostnaderFormueOgGjeldIBoligsameie",
+        "fields" : [ {
+          "name" : "andelAvFellesgjeldIBoligsameie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvFellesgjeldIBoligsameie"
+        }, {
+          "name" : "andelAvAnnenFormueIBoligsameie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvAnnenFormueIBoligsameie"
+        }, {
+          "name" : "navn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "andelAvInntektIBoligsameie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvInntektIBoligsameie"
+        }, {
+          "name" : "andelAvAndreFradragsberettigedeKostnaderIBoligsameie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvAndreFradragsberettigedeKostnaderIBoligsameie"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvInntektFelleskostnaderFormueOgGjeldIBoligsameie"
+  }, {
+    "name" : "andelAvInntektFelleskostnaderFormueOgGjeldIBoligselskap",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AndelAvInntektFelleskostnaderFormueOgGjeldIBoligselskap",
+        "fields" : [ {
+          "name" : "andelAvFellesgjeldIBoligselskap",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvFellesgjeldIBoligselskap"
+        }, {
+          "name" : "andelAvAnnenFormueIBoligselskap",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvAnnenFormueIBoligselskap"
+        }, {
+          "name" : "navn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "andelAvInntektIBoligselskap",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvInntektIBoligselskap"
+        }, {
+          "name" : "andelAvAndreFradragsberettigedeKostnaderIBoligselskap",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvAndreFradragsberettigedeKostnaderIBoligselskap"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvInntektFelleskostnaderFormueOgGjeldIBoligselskap"
+  }, {
+    "name" : "annenFormue",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AnnenFormue",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "formuesverdiForAnnenFormue",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForAnnenFormue"
+        }, {
+          "name" : "beskrivelse",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beskrivelse"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annenFormue"
+  }, {
+    "name" : "annenInntekt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AnnenInntekt",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "inntekt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:inntekt"
+        }, {
+          "name" : "beskrivelse",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beskrivelse"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annenInntekt"
+  }, {
+    "name" : "annetFinansprodukt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "AnnetFinansprodukt",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "finansproduktetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktetsNavn"
+        }, {
+          "name" : "kontofoerersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontofoerersNavn"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "finansprodukttype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansprodukttype"
+        }, {
+          "name" : "finansproduktidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktidentifikator"
+        }, {
+          "name" : "finansproduktidentifikatortype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktidentifikatortype"
+        }, {
+          "name" : "antallAndreFinansprodukter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallAndreFinansprodukter"
+        }, {
+          "name" : "formuesverdiForAnnetFinansprodukt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForAnnetFinansprodukt"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvAnnetFinansprodukt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvAnnetFinansprodukt"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvAnnetFinansprodukt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvAnnetFinansprodukt"
+        }, {
+          "name" : "gjeldPaaAnnetFinansprodukt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjeldPaaAnnetFinansprodukt"
+        }, {
+          "name" : "annenSkattepliktigKapitalinntektFraAnnetFinansprodukt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annenSkattepliktigKapitalinntektFraAnnetFinansprodukt"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annetFinansprodukt"
+  }, {
+    "name" : "arbeidsoppholdUtenforHjemmet",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "ArbeidsoppholdUtenforHjemmet",
+        "fields" : [ {
+          "name" : "pendleropphold",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "Pendleropphold",
+              "fields" : [ {
+                "name" : "arbeidsgiver",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:arbeidsgiver"
+              }, {
+                "name" : "losjitypeForPendleropphold",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:losjitypeForPendleropphold"
+              }, {
+                "name" : "oppstartsdatoForPendleropphold",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppstartsdatoForPendleropphold"
+              }, {
+                "name" : "stedForPendleropphold",
+                "type" : [ "null", {
+                  "type" : "record",
+                  "name" : "Lokasjon",
+                  "fields" : [ {
+                    "name" : "sted",
+                    "type" : [ "null", "string" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:sted"
+                  }, {
+                    "name" : "kommunenummer",
+                    "type" : [ "null", "string" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kommunenummer"
+                  }, {
+                    "name" : "landkode",
+                    "type" : [ "null", "string" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+                  } ]
+                } ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:stedForPendleropphold"
+              }, {
+                "name" : "arbeidssted",
+                "type" : [ "null", "Lokasjon" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:arbeidssted"
+              }, {
+                "name" : "antallOvernattingsdoegn",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallOvernattingsdoegn"
+              }, {
+                "name" : "kreverFradragForDokumenterteKostnaderTilKost",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverFradragForDokumenterteKostnaderTilKost"
+              }, {
+                "name" : "dokumenterteKostnaderTilKost",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilKost"
+              }, {
+                "name" : "mottarKostgodtgjoerelseLavereEnnSats",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:mottarKostgodtgjoerelseLavereEnnSats"
+              }, {
+                "name" : "dokumenterteKostnaderTilKostUtoverMottattKostgodtgjoerelse",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilKostUtoverMottattKostgodtgjoerelse"
+              }, {
+                "name" : "harGratisKostOgBesoeksreiserPaa6TimerEllerLenger",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:harGratisKostOgBesoeksreiserPaa6TimerEllerLenger"
+              }, {
+                "name" : "antallBesoeksreiser",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallBesoeksreiser"
+              }, {
+                "name" : "dokumenterteKostnaderTilLosji",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilLosji"
+              }, {
+                "name" : "kreverFradragForLosjiEtterSats",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverFradragForLosjiEtterSats"
+              }, {
+                "name" : "kostnaderTilLeieAvCampingplass",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderTilLeieAvCampingplass"
+              }, {
+                "name" : "beregnetKostnadForKostOgLosjiForPendleropphold",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beregnetKostnadForKostOgLosjiForPendleropphold"
+              }, {
+                "name" : "dokumenterteSmaautgifter",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteSmaautgifter"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pendleropphold"
+        }, {
+          "name" : "oppholdUnderKjoereoppdrag",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "OppholdUnderKjoereoppdrag",
+              "fields" : [ {
+                "name" : "arbeidsgiver",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:arbeidsgiver"
+              }, {
+                "name" : "antallOvernattingsdoegn",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallOvernattingsdoegn"
+              }, {
+                "name" : "kreverFradragForDokumenterteKostnaderTilKost",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverFradragForDokumenterteKostnaderTilKost"
+              }, {
+                "name" : "dokumenterteKostnaderTilKost",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilKost"
+              }, {
+                "name" : "mottarKostgodtgjoerelseLavereEnnSats",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:mottarKostgodtgjoerelseLavereEnnSats"
+              }, {
+                "name" : "dokumenterteKostnaderTilKostUtoverMottattKostgodtgjoerelse",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilKostUtoverMottattKostgodtgjoerelse"
+              }, {
+                "name" : "dokumenterteKostnaderTilLosji",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilLosji"
+              }, {
+                "name" : "beregnetKostnadForKostOgLosjiForOppholdUnderKjoereoppdrag",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beregnetKostnadForKostOgLosjiForOppholdUnderKjoereoppdrag"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppholdUnderKjoereoppdrag"
+        }, {
+          "name" : "fradragForMerkostnadVedArbeidsoppholdUtenforHjemmet",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragForMerkostnadVedArbeidsoppholdUtenforHjemmet"
+        }, {
+          "name" : "oppholdUnderYrkesOgTjenestereise",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "OppholdUnderYrkesOgTjenestereise",
+              "fields" : [ {
+                "name" : "arbeidsgiver",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:arbeidsgiver"
+              }, {
+                "name" : "losjitypeForOppholdUnderYrkesOgTjenestereise",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:losjitypeForOppholdUnderYrkesOgTjenestereise"
+              }, {
+                "name" : "oppholdssted",
+                "type" : [ "null", "Lokasjon" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppholdssted"
+              }, {
+                "name" : "antallOvernattingsdoegn",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallOvernattingsdoegn"
+              }, {
+                "name" : "kreverFradragForDokumenterteKostnaderTilKost",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverFradragForDokumenterteKostnaderTilKost"
+              }, {
+                "name" : "dokumenterteKostnaderTilKost",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilKost"
+              }, {
+                "name" : "mottarKostgodtgjoerelseLavereEnnSats",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:mottarKostgodtgjoerelseLavereEnnSats"
+              }, {
+                "name" : "dokumenterteKostnaderTilKostUtoverMottattKostgodtgjoerelse",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilKostUtoverMottattKostgodtgjoerelse"
+              }, {
+                "name" : "dokumenterteKostnaderTilLosji",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilLosji"
+              }, {
+                "name" : "kreverFradragForLosjiEtterSats",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverFradragForLosjiEtterSats"
+              }, {
+                "name" : "kostnaderTilLeieAvCampingplass",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderTilLeieAvCampingplass"
+              }, {
+                "name" : "dokumenterteSmaautgifter",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteSmaautgifter"
+              }, {
+                "name" : "beregnetKostnadForKostOgLosjiForOppholdUnderYrkesOgTjenestereise",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beregnetKostnadForKostOgLosjiForOppholdUnderYrkesOgTjenestereise"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppholdUnderYrkesOgTjenestereise"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:arbeidsoppholdUtenforHjemmet"
+  }, {
+    "name" : "reiserIArbeidsforhold",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "ReiserIArbeidsforhold",
+        "fields" : [ {
+          "name" : "reisefradrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reisefradrag"
+        }, {
+          "name" : "sparerMerEnnToTimerVedBrukAvEgenBil",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:sparerMerEnnToTimerVedBrukAvEgenBil"
+        }, {
+          "name" : "bompengeutgift",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bompengeutgift"
+        }, {
+          "name" : "fergeutgift",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fergeutgift"
+        }, {
+          "name" : "utgiftTilFlybilletterForBesoeksreiserTilHjemmet",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:utgiftTilFlybilletterForBesoeksreiserTilHjemmet"
+        }, {
+          "name" : "kreverFradragForDokumenterteKostnader",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverFradragForDokumenterteKostnader"
+        }, {
+          "name" : "dokumenterteKostnaderTilArbeidsOgBesoeksreiser",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumenterteKostnaderTilArbeidsOgBesoeksreiser"
+        }, {
+          "name" : "reiseIArbeidsforhold",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "ReiseIArbeidsforhold",
+              "fields" : [ {
+                "name" : "klassifiseringAvReiseIArbeidsforhold",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:klassifiseringAvReiseIArbeidsforhold"
+              }, {
+                "name" : "antallReiser",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallReiser"
+              }, {
+                "name" : "lengdeAvReiseTurRetur",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:lengdeAvReiseTurRetur"
+              }, {
+                "name" : "reiseFraAdresse",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reiseFraAdresse"
+              }, {
+                "name" : "reiseFraSted",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reiseFraSted"
+              }, {
+                "name" : "reiseTilAdresse",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reiseTilAdresse"
+              }, {
+                "name" : "reiseTilSted",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reiseTilSted"
+              }, {
+                "name" : "kreverAvstandsfradragVedBrukAvEgenBilForBesoeksreiseTilHjemmetUtenforEOeS",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kreverAvstandsfradragVedBrukAvEgenBilForBesoeksreiseTilHjemmetUtenforEOeS"
+              }, {
+                "name" : "reisenErDekketAvArbeidsgiver",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reisenErDekketAvArbeidsgiver"
+              }, {
+                "name" : "egenandelVedReiseDekketAvArbeidsgiver",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:egenandelVedReiseDekketAvArbeidsgiver"
+              }, {
+                "name" : "kostnaderVedBesoeksreiseTilHjemmetUtenforEOeS",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderVedBesoeksreiseTilHjemmetUtenforEOeS"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reiseIArbeidsforhold"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:reiserIArbeidsforhold"
+  }, {
+    "name" : "boligsparingForUngdom",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "BoligsparingForUngdom",
+        "fields" : [ {
+          "name" : "samletSparebeloepTilBoligsparingForUngdomOppspartISkattleggingsperioden",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samletSparebeloepTilBoligsparingForUngdomOppspartISkattleggingsperioden"
+        }, {
+          "name" : "tilleggIBeregnetSkattVedVilkaarsbruddForBoligsparingForUngdom",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tilleggIBeregnetSkattVedVilkaarsbruddForBoligsparingForUngdom"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligsparingForUngdom"
+  }, {
+    "name" : "fastEiendom",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "FastEiendom",
+        "fields" : [ {
+          "name" : "internEiendomsidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:internEiendomsidentifikator"
+        }, {
+          "name" : "SERGEiendomsidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:SERGEiendomsidentifikator"
+        }, {
+          "name" : "poststedsnavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:poststedsnavn"
+        }, {
+          "name" : "postnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:postnummer"
+        }, {
+          "name" : "gateadresse",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gateadresse"
+        }, {
+          "name" : "husnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:husnummer"
+        }, {
+          "name" : "husbokstav",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:husbokstav"
+        }, {
+          "name" : "bruksenhetsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bruksenhetsnummer"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "navn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navn"
+        }, {
+          "name" : "eierandel",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:eierandel"
+        }, {
+          "name" : "bruksnavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bruksnavn"
+        }, {
+          "name" : "kommunenummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kommunenummer"
+        }, {
+          "name" : "gaardsnummer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gaardsnummer"
+        }, {
+          "name" : "bruksnummer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bruksnummer"
+        }, {
+          "name" : "festenummer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:festenummer"
+        }, {
+          "name" : "seksjonsnummer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:seksjonsnummer"
+        }, {
+          "name" : "boligselskapetsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligselskapetsOrganisasjonsnummer"
+        }, {
+          "name" : "boligselskapetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligselskapetsNavn"
+        }, {
+          "name" : "aksjeboenhetsnummer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aksjeboenhetsnummer"
+        }, {
+          "name" : "andelsnummer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelsnummer"
+        }, {
+          "name" : "boligsameietsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligsameietsOrganisasjonsnummer"
+        }, {
+          "name" : "boligsameietsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligsameietsNavn"
+        }, {
+          "name" : "erEierskifteTinglyst",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:erEierskifteTinglyst"
+        }, {
+          "name" : "datoForOverdragelse",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:datoForOverdragelse"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fastEiendom"
+  }, {
+    "name" : "fastEiendomSomUtleieobjekt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "FastEiendomSomUtleieobjekt",
+        "fields" : [ {
+          "name" : "bruttoLeieinntektVedSjablongbehandletUtleie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bruttoLeieinntektVedSjablongbehandletUtleie"
+        }, {
+          "name" : "bruttoLeieinntektVedRegnskapsbehandletUtleie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bruttoLeieinntektVedRegnskapsbehandletUtleie"
+        }, {
+          "name" : "festeavgiftVedUtleie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:festeavgiftVedUtleie"
+        }, {
+          "name" : "vedlikeholdskostnadVedUtleie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:vedlikeholdskostnadVedUtleie"
+        }, {
+          "name" : "annenKostnadVedUtleie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annenKostnadVedUtleie"
+        }, {
+          "name" : "husleieFelleskostnadVedUtleie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:husleieFelleskostnadVedUtleie"
+        }, {
+          "name" : "benytterEiendommenSelvSomFritidseiendom",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benytterEiendommenSelvSomFritidseiendom"
+        }, {
+          "name" : "utleietype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:utleietype"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "saldoavskrivningAvInnbo",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:saldoavskrivningAvInnbo"
+        }, {
+          "name" : "andelAvNettoLeieinntektEllerUnderskudd",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvNettoLeieinntektEllerUnderskudd"
+        }, {
+          "name" : "internEiendomsidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:internEiendomsidentifikator"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fastEiendomSomUtleieobjekt"
+  }, {
+    "name" : "fastEiendomSomFormuesobjekt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "FastEiendomSomFormuesobjekt",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "formuesverdi",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdi"
+        }, {
+          "name" : "beregnetMarkedsverdiForBolig",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beregnetMarkedsverdiForBolig"
+        }, {
+          "name" : "andelAvFormuesverdi",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvFormuesverdi"
+        }, {
+          "name" : "boligbruk",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligbruk"
+        }, {
+          "name" : "eiendomstype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:eiendomstype"
+        }, {
+          "name" : "dokumentertMarkedsverdiForBolig",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dokumentertMarkedsverdiForBolig"
+        }, {
+          "name" : "boligtype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligtype"
+        }, {
+          "name" : "boligensAreal",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:boligensAreal"
+        }, {
+          "name" : "byggeaar",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:byggeaar"
+        }, {
+          "name" : "formueSkalIkkeFastsettes",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formueSkalIkkeFastsettes"
+        }, {
+          "name" : "internEiendomsidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:internEiendomsidentifikator"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fastEiendomSomFormuesobjekt"
+  }, {
+    "name" : "fagforeningskontingent",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Fagforeningskontingent",
+        "fields" : [ {
+          "name" : "samletBetaltFagforeningskontingentPerSkattleggingsperiode",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samletBetaltFagforeningskontingentPerSkattleggingsperiode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fagforeningskontingent"
+  }, {
+    "name" : "fondskonto",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Fondskonto",
+        "fields" : [ {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "forsikringsselskapetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:forsikringsselskapetsNavn"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvOgUttakFraAksjedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvOgUttakFraAksjedel"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvOgUttakFraAksjedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvOgUttakFraAksjedel"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvOgUttakFraRentedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvOgUttakFraRentedel"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvOgUttakFraRentedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvOgUttakFraRentedel"
+        }, {
+          "name" : "verdiFoerVerdsettingsrabattForAksjeOgAksjefond",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdiFoerVerdsettingsrabattForAksjeOgAksjefond"
+        }, {
+          "name" : "formuesverdiForKontanterMv",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForKontanterMv"
+        }, {
+          "name" : "skattefrittUttak",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattefrittUttak"
+        }, {
+          "name" : "benyttetSkjermingsfradrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradrag"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fondskonto"
+  }, {
+    "name" : "foreldrefradrag",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Foreldrefradrag",
+        "fields" : [ {
+          "name" : "antallBarn",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallBarn"
+        }, {
+          "name" : "totaltForeldrefradrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:totaltForeldrefradrag"
+        }, {
+          "name" : "andelAvForeldrefradragProsent",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvForeldrefradragProsent"
+        }, {
+          "name" : "andelAvForeldrefradragBeloep",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvForeldrefradragBeloep"
+        }, {
+          "name" : "andelAvForeldrefradragTilordnetEktefelle",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvForeldrefradragTilordnetEktefelle"
+        }, {
+          "name" : "barnSomGirRettTilForeldrefradrag",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "BarnSomGirRettTilForeldrefradrag",
+              "fields" : [ {
+                "name" : "navn",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navn"
+              }, {
+                "name" : "personidentifikator",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:personidentifikator"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:barnSomGirRettTilForeldrefradrag"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:foreldrefradrag"
+  }, {
+    "name" : "forvaltningskostnader",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Forvaltningskostnader",
+        "fields" : [ {
+          "name" : "aarsavgiftIVPS",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aarsavgiftIVPS"
+        }, {
+          "name" : "leiekostnaderForBankboks",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:leiekostnaderForBankboks"
+        }, {
+          "name" : "forvaltningskostnaderForVerdipapirer",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:forvaltningskostnaderForVerdipapirer"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:forvaltningskostnader"
+  }, {
+    "name" : "fritidsbaatMedSalgsverdiOverSalgsverdigrense",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "FritidsbaatMedSalgsverdiOverSalgsverdigrense",
+        "fields" : [ {
+          "name" : "baatmerke",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:baatmerke"
+        }, {
+          "name" : "grunnlagForFormuesverdiForFritidsbaatMedSalgsverdiOverSalgsverdigrense",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:grunnlagForFormuesverdiForFritidsbaatMedSalgsverdiOverSalgsverdigrense"
+        }, {
+          "name" : "antattSalgsverdi",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antattSalgsverdi"
+        }, {
+          "name" : "forsikringssum",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:forsikringssum"
+        }, {
+          "name" : "formuesverdiForFritidsbaatMedSalgsverdiOverSalgsverdigrense",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForFritidsbaatMedSalgsverdiOverSalgsverdigrense"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fritidsbaatMedSalgsverdiOverSalgsverdigrense"
+  }, {
+    "name" : "gaveOgArv",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "GaveOgArv",
+        "fields" : [ {
+          "name" : "fradragForPengetilskudd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragForPengetilskudd"
+        }, {
+          "name" : "gaveTilFrivilligOrganisasjon",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "GaveTilFrivilligOrganisasjon",
+              "fields" : [ {
+                "name" : "navnGodkjentGavemottaker",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navnGodkjentGavemottaker"
+              }, {
+                "name" : "organisasjonsnummerGodkjentGavemottaker",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummerGodkjentGavemottaker"
+              }, {
+                "name" : "beloep",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+              }, {
+                "name" : "overfoertFraBarn",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+              }, {
+                "name" : "landkode",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gaveTilFrivilligOrganisasjon"
+        }, {
+          "name" : "skattefriGevinstFraSpillEllerTiltakArrangertAvMassemedia",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "SkattefriGevinstFraSpillEllerTiltakArrangertAvMassemedia",
+              "fields" : [ {
+                "name" : "beloep",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+              }, {
+                "name" : "landkode",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattefriGevinstFraSpillEllerTiltakArrangertAvMassemedia"
+        }, {
+          "name" : "samletVerdiArvEllerGaveUtenforArbeidsforhold",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "SamletVerdiArvEllerGaveUtenforArbeidsforhold",
+              "fields" : [ {
+                "name" : "beloep",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+              }, {
+                "name" : "landkode",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samletVerdiArvEllerGaveUtenforArbeidsforhold"
+        }, {
+          "name" : "tilskuddTilVitenskapeligForskning",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "TilskuddTilVitenskapeligForskning",
+              "fields" : [ {
+                "name" : "godkjentInstituttsOrganisasjonsnavn",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:godkjentInstituttsOrganisasjonsnavn"
+              }, {
+                "name" : "godkjentInstituttsOrganisasjonsnummer",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:godkjentInstituttsOrganisasjonsnummer"
+              }, {
+                "name" : "pengetilskudd",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pengetilskudd"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tilskuddTilVitenskapeligForskning"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gaveOgArv"
+  }, {
+    "name" : "grunnlagForSkattefradragForPensjonsinntekt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "GrunnlagForSkattefradragForPensjonsinntekt",
+        "fields" : [ {
+          "name" : "gjennomsnittligVektetPensjonsgrad",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjennomsnittligVektetPensjonsgrad"
+        }, {
+          "name" : "harKravPaaSkattefradragForPensjon",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:harKravPaaSkattefradragForPensjon"
+        }, {
+          "name" : "samletPensjonsinntekt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samletPensjonsinntekt"
+        }, {
+          "name" : "antallMaanederMedPensjon",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallMaanederMedPensjon"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:grunnlagForSkattefradragForPensjonsinntekt"
+  }, {
+    "name" : "individuellPensjonsordning",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "IndividuellPensjonsordning",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "pensjonsordningstype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsordningstype"
+        }, {
+          "name" : "oppgavegiverPensjonsinnbetalingersOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppgavegiverPensjonsinnbetalingersOrganisasjonsnummer"
+        }, {
+          "name" : "oppgavegiverPensjonsinnbetalingersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppgavegiverPensjonsinnbetalingersNavn"
+        }, {
+          "name" : "innbetalingTilIndividuellPensjonsordningPerSkattleggingsperiode",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:innbetalingTilIndividuellPensjonsordningPerSkattleggingsperiode"
+        }, {
+          "name" : "kapitalinntektFraIndividuellPensjonsordningPerSkattleggingsperiode",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kapitalinntektFraIndividuellPensjonsordningPerSkattleggingsperiode"
+        }, {
+          "name" : "returAvPremie",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:returAvPremie"
+        }, {
+          "name" : "premiefond",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:premiefond"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:individuellPensjonsordning"
+  }, {
+    "name" : "investeringIOppstartsselskap",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "InvesteringIOppstartsselskap",
+        "fields" : [ {
+          "name" : "fradragForInvesteringIOppstartsselskap",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragForInvesteringIOppstartsselskap"
+        }, {
+          "name" : "oppstartselskapOrganisasjonsnummer",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : "string"
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppstartselskapOrganisasjonsnummer"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:investeringIOppstartsselskap"
+  }, {
+    "name" : "kjoeretoey",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Kjoeretoey",
+        "fields" : [ {
+          "name" : "registreringsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:registreringsnummer"
+        }, {
+          "name" : "fabrikatnavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fabrikatnavn"
+        }, {
+          "name" : "aarForFoerstegangsregistrering",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:aarForFoerstegangsregistrering"
+        }, {
+          "name" : "formuesverdi",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdi"
+        }, {
+          "name" : "antattVerdiSomNytt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antattVerdiSomNytt"
+        }, {
+          "name" : "antattMarkedsverdi",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antattMarkedsverdi"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kjoeretoey"
+  }, {
+    "name" : "kontantbeloep",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Kontantbeloep",
+        "fields" : [ {
+          "name" : "beloep",
+          "type" : "long",
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontantbeloep"
+  }, {
+    "name" : "konto",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Konto",
+        "fields" : [ {
+          "name" : "bankensNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bankensNavn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "erBoligsparekontoIAnnenEOeSStat",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:erBoligsparekontoIAnnenEOeSStat"
+        }, {
+          "name" : "innskudd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:innskudd"
+        }, {
+          "name" : "opptjenteRenter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:opptjenteRenter"
+        }, {
+          "name" : "gjeld",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjeld"
+        }, {
+          "name" : "paaloepteRenter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:paaloepteRenter"
+        }, {
+          "name" : "tilbakefoerteRenter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tilbakefoerteRenter"
+        }, {
+          "name" : "betalteMisligholdteRenter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:betalteMisligholdteRenter"
+        }, {
+          "name" : "tapValutalaan",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tapValutalaan"
+        }, {
+          "name" : "gevinstValutalaan",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gevinstValutalaan"
+        }, {
+          "name" : "sparebeloepTilBoligsparingForUngdomOppspartISkattleggingsperioden",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:sparebeloepTilBoligsparingForUngdomOppspartISkattleggingsperioden"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        }, {
+          "name" : "andelOverfoert",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelOverfoert"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:konto"
+  }, {
+    "name" : "kostnaderForMerkjoeringForAaBringeOgHenteBarn",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "KostnaderForMerkjoeringForAaBringeOgHenteBarn",
+        "fields" : [ {
+          "name" : "stedForBarnepass",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:stedForBarnepass"
+        }, {
+          "name" : "faktiskKostnad",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:faktiskKostnad"
+        }, {
+          "name" : "antallReiserMedMerkjoering",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallReiserMedMerkjoering"
+        }, {
+          "name" : "lengdeAvMerkjoering",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:lengdeAvMerkjoering"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderForMerkjoeringForAaBringeOgHenteBarn"
+  }, {
+    "name" : "livsforsikring",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Livsforsikring",
+        "fields" : [ {
+          "name" : "livsforsikringsselskapetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:livsforsikringsselskapetsNavn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "forsikringsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:forsikringsnummer"
+        }, {
+          "name" : "fradragsberettigetTapPaaLivsforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragsberettigetTapPaaLivsforsikring"
+        }, {
+          "name" : "skattepliktigEngangsutbetalingFraLivrente",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigEngangsutbetalingFraLivrente"
+        }, {
+          "name" : "skattepliktigTerminutbetalingFraLivrente",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTerminutbetalingFraLivrente"
+        }, {
+          "name" : "skattepliktigEngangsutbetalingFraUfoererente",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigEngangsutbetalingFraUfoererente"
+        }, {
+          "name" : "renteinntektAvLivsforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:renteinntektAvLivsforsikring"
+        }, {
+          "name" : "skattepliktigUtbetalingFraKapitalforsikringUtenGarantertAvkastning",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigUtbetalingFraKapitalforsikringUtenGarantertAvkastning"
+        }, {
+          "name" : "avkastningAvKapitalforsikringsavtale",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:avkastningAvKapitalforsikringsavtale"
+        }, {
+          "name" : "premiefond",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:premiefond"
+        }, {
+          "name" : "gjenkjoepsverdiAvKapitalforsikringsavtale",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjenkjoepsverdiAvKapitalforsikringsavtale"
+        }, {
+          "name" : "gjenkjoepsverdiAvIndividuellLivrente",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjenkjoepsverdiAvIndividuellLivrente"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:livsforsikring"
+  }, {
+    "name" : "loennOgTilsvarendeYtelser",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "LoennOgTilsvarendeYtelser",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "arbeidsgiversNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:arbeidsgiversNavn"
+        }, {
+          "name" : "samledeYtelserFraArbeidsgiverPerBehandlingsart",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "SamledeYtelserFraArbeidsgiverPerBehandlingsart",
+              "fields" : [ {
+                "name" : "beloep",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+              }, {
+                "name" : "antall",
+                "type" : [ "null", "double" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antall"
+              }, {
+                "name" : "overskuddAvUtgiftsgodtgjoerelse",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overskuddAvUtgiftsgodtgjoerelse"
+              }, {
+                "name" : "behandlingsart",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:behandlingsart"
+              }, {
+                "name" : "erLoennFraDenNorskeStat",
+                "type" : [ "null", "boolean" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:erLoennFraDenNorskeStat"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samledeYtelserFraArbeidsgiverPerBehandlingsart"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:loennOgTilsvarendeYtelser"
+  }, {
+    "name" : "minstefradragOgKostnader",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "MinstefradragOgKostnaderKnyttetTilArbeidOgAnnenInntekt",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "fastsattFradragstype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fastsattFradragstype"
+        }, {
+          "name" : "minstefradragIInntekt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:minstefradragIInntekt"
+        }, {
+          "name" : "fradragForKostnaderKnyttetTilArbeid",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragForKostnaderKnyttetTilArbeid"
+        }, {
+          "name" : "kostnaderKnyttetTilArbeid",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderKnyttetTilArbeid"
+        }, {
+          "name" : "kostnaderKnyttetTilAnnenInntekt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderKnyttetTilAnnenInntekt"
+        }, {
+          "name" : "kostnaderUtenFradragsrett",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderUtenFradragsrett"
+        }, {
+          "name" : "kostnad",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "KostnadKnyttetTilArbeidOgAnnenInntekt",
+              "fields" : [ {
+                "name" : "beloep",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+              }, {
+                "name" : "kostnadstype",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnadstype"
+              }, {
+                "name" : "beskrivelse",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beskrivelse"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnad"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:minstefradragOgKostnader"
+  }, {
+    "name" : "mottattUnderholdsbidrag",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "MottattUnderholdsbidrag",
+        "fields" : [ {
+          "name" : "beloep",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+        }, {
+          "name" : "bidragsytersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bidragsytersNavn"
+        }, {
+          "name" : "bidragsytersFoedselsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bidragsytersFoedselsnummer"
+        }, {
+          "name" : "rapporterendeEnhetsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:rapporterendeEnhetsOrganisasjonsnummer"
+        }, {
+          "name" : "rapporterendeEnhetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:rapporterendeEnhetsNavn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:mottattUnderholdsbidrag"
+  }, {
+    "name" : "nettoLeieinntektEllerUnderskuddFraFastEiendomSomUtleieobjektOverfoertFraEktefelle",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "NettoLeieinntektEllerUnderskuddFraFastEiendomSomUtleieobjektOverfoertFraEktefelle",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "kommunenummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kommunenummer"
+        }, {
+          "name" : "nettoLeieinntekt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:nettoLeieinntekt"
+        }, {
+          "name" : "underskudd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:underskudd"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:nettoLeieinntektEllerUnderskuddFraFastEiendomSomUtleieobjektOverfoertFraEktefelle"
+  }, {
+    "name" : "personligeForhold",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "PersonligeForhold",
+        "fields" : [ {
+          "name" : "kravOmKreditfradrag",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "KravOmKreditfradrag",
+            "fields" : [ {
+              "name" : "fremfoertUtenlandskSkattPerInntektsaar",
+              "type" : [ "null", {
+                "type" : "array",
+                "items" : {
+                  "type" : "record",
+                  "name" : "FremfoertUtenlandskSkattPerInntektsaar",
+                  "fields" : [ {
+                    "name" : "inntektsaar",
+                    "type" : [ "null", "string" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:inntektsaar"
+                  }, {
+                    "name" : "fremfoertUtenlandskFormuesskatt",
+                    "type" : [ "null", "double" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fremfoertUtenlandskFormuesskatt"
+                  }, {
+                    "name" : "fremfoertUtenlandskInntektsskatt",
+                    "type" : [ "null", "double" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fremfoertUtenlandskInntektsskatt"
+                  } ]
+                }
+              } ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fremfoertUtenlandskSkattPerInntektsaar"
+            }, {
+              "name" : "kravOmKreditfradragForUtenlandskSkattPrLand",
+              "type" : [ "null", {
+                "type" : "array",
+                "items" : {
+                  "type" : "record",
+                  "name" : "KravOmKreditfradragForUtenlandskSkatt",
+                  "fields" : [ {
+                    "name" : "landkode",
+                    "type" : [ "null", "string" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+                  }, {
+                    "name" : "kravOmKreditfradragForUtenlandskFormuesskatt",
+                    "type" : [ "null", "long" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kravOmKreditfradragForUtenlandskFormuesskatt"
+                  }, {
+                    "name" : "kravOmKreditfradragForUtenlandskInntektsskatt",
+                    "type" : [ "null", "long" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kravOmKreditfradragForUtenlandskInntektsskatt"
+                  }, {
+                    "name" : "skattBetaltPaaAksjeutbytteMottattFraUtenlandskSelskap",
+                    "type" : [ "null", "long" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattBetaltPaaAksjeutbytteMottattFraUtenlandskSelskap"
+                  }, {
+                    "name" : "bruttoAksjeutbytteMottattFraUtenlandskSelskap",
+                    "type" : [ "null", "long" ],
+                    "default" : null,
+                    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bruttoAksjeutbytteMottattFraUtenlandskSelskap"
+                  } ]
+                }
+              } ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kravOmKreditfradragForUtenlandskSkattPrLand"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kravOmKreditfradrag"
+        }, {
+          "name" : "skattebegrensningVedLavAlminneligInntekt",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "SkattebegrensningVedLavAlminneligInntekt",
+            "fields" : [ {
+              "name" : "vurderesForSkattebegrensningParagraf174LitenSkatteevne",
+              "type" : [ "null", "boolean" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:vurderesForSkattebegrensningParagraf174LitenSkatteevne"
+            }, {
+              "name" : "vurderesForSkattebegrensningParagraf171LavAlminneligInntekt",
+              "type" : [ "null", "boolean" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:vurderesForSkattebegrensningParagraf171LavAlminneligInntekt"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattebegrensningVedLavAlminneligInntekt"
+        }, {
+          "name" : "fradragDirekteTilordnetInntektFraUtlandetKreditfradrag",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "FradragDirekteTilordnetInntektFraUtlandetKreditfradrag",
+            "fields" : [ {
+              "name" : "minstefradragIInntektTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:minstefradragIInntektTilordnetUtlandet"
+            }, {
+              "name" : "kostnaderKnyttetTilArbeidTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderKnyttetTilArbeidTilordnetUtlandet"
+            }, {
+              "name" : "merkostnaderVedArbeidsoppholdUtenforHjemmetTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:merkostnaderVedArbeidsoppholdUtenforHjemmetTilordnetUtlandet"
+            }, {
+              "name" : "kostnaderKnyttetTilArbeidsOgBesoeksreiserTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderKnyttetTilArbeidsOgBesoeksreiserTilordnetUtlandet"
+            }, {
+              "name" : "fagforeningskontingentTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fagforeningskontingentTilordnetUtlandet"
+            }, {
+              "name" : "pensjonsinnbetalingTilPensjonsordningTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsinnbetalingTilPensjonsordningTilordnetUtlandet"
+            }, {
+              "name" : "tapVedRealisasjonAvFastEiendomTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tapVedRealisasjonAvFastEiendomTilordnetUtlandet"
+            }, {
+              "name" : "tapVedRealisasjonAvVerdipapirTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tapVedRealisasjonAvVerdipapirTilordnetUtlandet"
+            }, {
+              "name" : "underskuddVedUtleieAvFastEiendomTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:underskuddVedUtleieAvFastEiendomTilordnetUtlandet"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragDirekteTilordnetInntektFraUtlandetKreditfradrag"
+        }, {
+          "name" : "fradragIndirekteTilordnetUtlandetKreditfradrag",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "FradragIndirekteTilordnetUtlandetKreditfradrag",
+            "fields" : [ {
+              "name" : "foreldrefradragTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:foreldrefradragTilordnetUtlandet"
+            }, {
+              "name" : "betaltUnderholdsbidragTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:betaltUnderholdsbidragTilordnetUtlandet"
+            }, {
+              "name" : "fradragForIndividuellSparingTilPensjonTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragForIndividuellSparingTilPensjonTilordnetUtlandet"
+            }, {
+              "name" : "andreFradragTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andreFradragTilordnetUtlandet"
+            }, {
+              "name" : "saerfradragForEnsligForsoergerTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:saerfradragForEnsligForsoergerTilordnetUtlandet"
+            }, {
+              "name" : "gjeldsrenterTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjeldsrenterTilordnetUtlandet"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragIndirekteTilordnetUtlandetKreditfradrag"
+        }, {
+          "name" : "skattebegrensningVedLitenSkatteevne",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "SkattebegrensningVedLitenSkatteevne",
+            "fields" : [ {
+              "name" : "vurderesForSkattebegrensningParagraf174LitenSkatteevne",
+              "type" : [ "null", "boolean" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:vurderesForSkattebegrensningParagraf174LitenSkatteevne"
+            }, {
+              "name" : "rettTilSkattebegrensningParagraf174LitenSkatteevneForegaaendeAar",
+              "type" : [ "null", "boolean" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:rettTilSkattebegrensningParagraf174LitenSkatteevneForegaaendeAar"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattebegrensningVedLitenSkatteevne"
+        }, {
+          "name" : "fremfoertUnderskuddFraTidligereAar",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fremfoertUnderskuddFraTidligereAar"
+        }, {
+          "name" : "fradragDirekteTilordnetInntektFraUtlandetAlternativFordelingsmetode",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "FradragDirekteTilordnetInntektFraUtlandetVedKravOmDenAlternativeFordelingsmetoden",
+            "fields" : [ {
+              "name" : "minstefradragIInntektTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:minstefradragIInntektTilordnetUtlandet"
+            }, {
+              "name" : "kostnaderKnyttetTilArbeidTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderKnyttetTilArbeidTilordnetUtlandet"
+            }, {
+              "name" : "merkostnaderVedArbeidsoppholdUtenforHjemmetTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:merkostnaderVedArbeidsoppholdUtenforHjemmetTilordnetUtlandet"
+            }, {
+              "name" : "kostnaderKnyttetTilArbeidsOgBesoeksreiserTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kostnaderKnyttetTilArbeidsOgBesoeksreiserTilordnetUtlandet"
+            }, {
+              "name" : "fagforeningskontingentTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fagforeningskontingentTilordnetUtlandet"
+            }, {
+              "name" : "pensjonsinnbetalingTilPensjonsordningTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsinnbetalingTilPensjonsordningTilordnetUtlandet"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragDirekteTilordnetInntektFraUtlandetAlternativFordelingsmetode"
+        }, {
+          "name" : "fradragIndirekteTilordnetUtlandetAlternativFordelingsmetode",
+          "type" : [ "null", {
+            "type" : "record",
+            "name" : "FradragIndirekteTilordnetUtlandetVedKravOmDenAlternativeFordelingsmetoden",
+            "fields" : [ {
+              "name" : "foreldrefradragTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:foreldrefradragTilordnetUtlandet"
+            }, {
+              "name" : "betaltUnderholdsbidragTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:betaltUnderholdsbidragTilordnetUtlandet"
+            }, {
+              "name" : "fradragForIndividuellSparingTilPensjonTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragForIndividuellSparingTilPensjonTilordnetUtlandet"
+            }, {
+              "name" : "andreFradragTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andreFradragTilordnetUtlandet"
+            }, {
+              "name" : "saerfradragForEnsligForsoergerTilordnetUtlandet",
+              "type" : [ "null", "long" ],
+              "default" : null,
+              "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:saerfradragForEnsligForsoergerTilordnetUtlandet"
+            } ]
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fradragIndirekteTilordnetUtlandetAlternativFordelingsmetode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:personligeForhold"
+  }, {
+    "name" : "obligasjonOgSertifikat",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "ObligasjonOgSertifikat",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "rentepapiretsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:rentepapiretsNavn"
+        }, {
+          "name" : "kontofoerersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontofoerersNavn"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "finansproduktidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktidentifikator"
+        }, {
+          "name" : "finansproduktidentifikatortype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:finansproduktidentifikatortype"
+        }, {
+          "name" : "antallObligasjonerOgSertifikater",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallObligasjonerOgSertifikater"
+        }, {
+          "name" : "formuesverdiForObligasjonOgSertifikat",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForObligasjonOgSertifikat"
+        }, {
+          "name" : "renteinntektAvObligasjonOgSertifikat",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:renteinntektAvObligasjonOgSertifikat"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvObligasjonOgSertifikat",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvObligasjonOgSertifikat"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvObligasjonOgSertifikat",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvObligasjonOgSertifikat"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:obligasjonOgSertifikat"
+  }, {
+    "name" : "oppholdskostnaderVedPassOgStellAvBarn",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "OppholdskostnaderVedPassOgStellAvBarn",
+        "fields" : [ {
+          "name" : "betaltBeloep",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:betaltBeloep"
+        }, {
+          "name" : "navnBarnepassvirksomhet",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navnBarnepassvirksomhet"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppholdskostnaderVedPassOgStellAvBarn"
+  }, {
+    "name" : "pensjonsinntekt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Pensjonsinntekt",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "beloepPrSkattleggingsperiode",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloepPrSkattleggingsperiode"
+        }, {
+          "name" : "pensjonsutbetalersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsutbetalersNavn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "pensjonstype",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonstype"
+        }, {
+          "name" : "behandlingsart",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:behandlingsart"
+        }, {
+          "name" : "pensjonsinntektPerMaaned",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "PensjonsinntektPerMaaned",
+              "fields" : [ {
+                "name" : "beloep",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+              }, {
+                "name" : "kalendermaaned",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kalendermaaned"
+              }, {
+                "name" : "pensjonsgrad",
+                "type" : [ "null", "double" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsgrad"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsinntektPerMaaned"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonsinntekt"
+  }, {
+    "name" : "pensjonspremierIArbeidsforhold",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "PensjonspremierIArbeidsforhold",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "samletPensjonsinnbetalingTilPensjonsordningIArbeidsforholdPerSkattleggingsperiode",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samletPensjonsinnbetalingTilPensjonsordningIArbeidsforholdPerSkattleggingsperiode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:pensjonspremierIArbeidsforhold"
+  }, {
+    "name" : "privatFordringUtenforVirksomhet",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "PrivatFordringUtenforVirksomhet",
+        "fields" : [ {
+          "name" : "formuesverdi",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdi"
+        }, {
+          "name" : "opptjenteRenter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:opptjenteRenter"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:privatFordringUtenforVirksomhet"
+  }, {
+    "name" : "privatGjeldsforholdUtenforVirksomhet",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "PrivatGjeldsforholdUtenforVirksomhet",
+        "fields" : [ {
+          "name" : "fordringshaver",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fordringshaver"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "gjeld",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjeld"
+        }, {
+          "name" : "paaloepteRenter",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:paaloepteRenter"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:privatGjeldsforholdUtenforVirksomhet"
+  }, {
+    "name" : "realisasjonAvFastEiendom",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "RealisasjonAvFastEiendom",
+        "fields" : [ {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "gevinstVedRealisasjonAvFastEiendom",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gevinstVedRealisasjonAvFastEiendom"
+        }, {
+          "name" : "tapVedRealisasjonAvFastEiendom",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tapVedRealisasjonAvFastEiendom"
+        }, {
+          "name" : "internEiendomsidentifikator",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:internEiendomsidentifikator"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:realisasjonAvFastEiendom"
+  }, {
+    "name" : "skadeforsikring",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Skadeforsikring",
+        "fields" : [ {
+          "name" : "skadeforsikringsselskapetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skadeforsikringsselskapetsNavn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "skadenummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skadenummer"
+        }, {
+          "name" : "renteinntektAvSkadeforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:renteinntektAvSkadeforsikring"
+        }, {
+          "name" : "utbetalingFraSkadeforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:utbetalingFraSkadeforsikring"
+        }, {
+          "name" : "annenUtbetalingFraSkadeforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annenUtbetalingFraSkadeforsikring"
+        }, {
+          "name" : "returAvPremieFraSkadeforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:returAvPremieFraSkadeforsikring"
+        }, {
+          "name" : "dagpengerVedSykehusoppholdMvFraBarneforsikring",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:dagpengerVedSykehusoppholdMvFraBarneforsikring"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skadeforsikring"
+  }, {
+    "name" : "skattefriStoenadTilBarnetilsyn",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "SkattefriStoenadTilBarnetilsyn",
+        "fields" : [ {
+          "name" : "beloep",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattefriStoenadTilBarnetilsyn"
+  }, {
+    "name" : "skattepliktigKundeutbytteUtenforVirksomhetPerUtbetaler",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "SkattepliktigKundeutbytteUtenforVirksomhetPerUtbetaler",
+        "fields" : [ {
+          "name" : "utbetaltBeloep",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:utbetaltBeloep"
+        }, {
+          "name" : "navn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:navn"
+        }, {
+          "name" : "organisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:organisasjonsnummer"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigKundeutbytteUtenforVirksomhetPerUtbetaler"
+  }, {
+    "name" : "skyldigRestskatt",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "SkyldigRestskatt",
+        "fields" : [ {
+          "name" : "betalteForsinkelsesrenterForSamletSkyldigRestskatt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:betalteForsinkelsesrenterForSamletSkyldigRestskatt"
+        }, {
+          "name" : "samletSkyldigRestskatt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:samletSkyldigRestskatt"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skyldigRestskatt"
+  }, {
+    "name" : "saerfradragForEnsligForsoerger",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "SaerfradragForEnsligForsoerger",
+        "fields" : [ {
+          "name" : "antallMaanederMedHelUtvidetBarnetrygd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallMaanederMedHelUtvidetBarnetrygd"
+        }, {
+          "name" : "andelAvSaerfradragForEnsligForsoergerFraHelUtvidetBarnetrygd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvSaerfradragForEnsligForsoergerFraHelUtvidetBarnetrygd"
+        }, {
+          "name" : "antallMaanederMedDeltUtvidetBarnetrygd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallMaanederMedDeltUtvidetBarnetrygd"
+        }, {
+          "name" : "andelAvSaerfradragForEnsligForsoergerFraDeltUtvidetBarnetrygd",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvSaerfradragForEnsligForsoergerFraDeltUtvidetBarnetrygd"
+        }, {
+          "name" : "saerfradragForEnsligForsoerger",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:saerfradragForEnsligForsoerger"
+        }, {
+          "name" : "utvidetBarnetrygd",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : {
+              "type" : "record",
+              "name" : "UtvidetBarnetrygd",
+              "fields" : [ {
+                "name" : "ytelsesgrad",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:ytelsesgrad"
+              }, {
+                "name" : "antallMaaneder",
+                "type" : [ "null", "long" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallMaaneder"
+              }, {
+                "name" : "fraOgMedMaaned",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fraOgMedMaaned"
+              }, {
+                "name" : "tilOgMedMaaned",
+                "type" : [ "null", "string" ],
+                "default" : null,
+                "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:tilOgMedMaaned"
+              } ]
+            }
+          } ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:utvidetBarnetrygd"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:saerfradragForEnsligForsoerger"
+  }, {
+    "name" : "verdiForAnnetPrivatInnboOgLoesoere",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "VerdiForAnnetPrivatInnboOgLoesoere",
+        "fields" : [ {
+          "name" : "beloep",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:beloep"
+        }, {
+          "name" : "andelAvFribeloep",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:andelAvFribeloep"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdiForAnnetPrivatInnboOgLoesoere"
+  }, {
+    "name" : "underholdsbidragBetaltSkyldigOgTilGode",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "UnderholdsbidragBetaltSkyldigOgTilGode",
+        "fields" : [ {
+          "name" : "betaltUnderholdsbidrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:betaltUnderholdsbidrag"
+        }, {
+          "name" : "skyldigUnderholdsbidrag",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skyldigUnderholdsbidrag"
+        }, {
+          "name" : "underholdsbidragTilGode",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:underholdsbidragTilGode"
+        }, {
+          "name" : "bidragsmottakersNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bidragsmottakersNavn"
+        }, {
+          "name" : "bidragsmottakersFoedselsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:bidragsmottakersFoedselsnummer"
+        }, {
+          "name" : "rapporterendeEnhetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:rapporterendeEnhetsNavn"
+        }, {
+          "name" : "rapporterendeEnhetsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:rapporterendeEnhetsOrganisasjonsnummer"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:underholdsbidragBetaltSkyldigOgTilGode"
+  }, {
+    "name" : "verdipapirfond",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "Verdipapirfond",
+        "fields" : [ {
+          "name" : "fondetsNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fondetsNavn"
+        }, {
+          "name" : "fondetsOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:fondetsOrganisasjonsnummer"
+        }, {
+          "name" : "isinnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:isinnummer"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "antallAndeler",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antallAndeler"
+        }, {
+          "name" : "skattepliktigUtbytte",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigUtbytte"
+        }, {
+          "name" : "skattepliktigRenteinntekt",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigRenteinntekt"
+        }, {
+          "name" : "verdiFoerVerdsettingsrabattForAndelIAksjedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdiFoerVerdsettingsrabattForAndelIAksjedel"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvAndelIAksjedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvAndelIAksjedel"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvAndelIAksjedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvAndelIAksjedel"
+        }, {
+          "name" : "formuesverdiForAndelIRentedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForAndelIRentedel"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvAndelIRentedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvAndelIRentedel"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvAndelIRentedel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvAndelIRentedel"
+        }, {
+          "name" : "benyttetSkjermingsfradragPaaUtbytte",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradragPaaUtbytte"
+        }, {
+          "name" : "benyttetSkjermingsfradragPaaGevinstVedRealisasjonAvAndel",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:benyttetSkjermingsfradragPaaGevinstVedRealisasjonAvAndel"
+        }, {
+          "name" : "erReselgeroppgave",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:erReselgeroppgave"
+        }, {
+          "name" : "oppgavegiversOrganisasjonsnummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppgavegiversOrganisasjonsnummer"
+        }, {
+          "name" : "oppgavegiversNavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:oppgavegiversNavn"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:verdipapirfond"
+  }, {
+    "name" : "virtuellValuta",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "VirtuellValuta",
+        "fields" : [ {
+          "name" : "virtuellValutanavn",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:virtuellValutanavn"
+        }, {
+          "name" : "kontonummer",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:kontonummer"
+        }, {
+          "name" : "antall",
+          "type" : [ "null", "double" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:antall"
+        }, {
+          "name" : "formuesverdiForVirtuellValuta",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:formuesverdiForVirtuellValuta"
+        }, {
+          "name" : "skattepliktigGevinstVedRealisasjonAvVirtuellValuta",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigGevinstVedRealisasjonAvVirtuellValuta"
+        }, {
+          "name" : "skattepliktigTapVedRealisasjonAvVirtuellValuta",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skattepliktigTapVedRealisasjonAvVirtuellValuta"
+        }, {
+          "name" : "annenSkattepliktigKapitalinntektFraVirtuellValuta",
+          "type" : [ "null", "long" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:annenSkattepliktigKapitalinntektFraVirtuellValuta"
+        }, {
+          "name" : "gjelderFlereVirtuelleValutaer",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:gjelderFlereVirtuelleValutaer"
+        }, {
+          "name" : "landkode",
+          "type" : [ "null", "string" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:landkode"
+        }, {
+          "name" : "overfoertFraBarn",
+          "type" : [ "null", "boolean" ],
+          "default" : null,
+          "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:overfoertFraBarn"
+        } ]
+      }
+    } ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:virtuellValuta"
+  }, {
+    "name" : "personidentifikator",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:personidentifikator"
+  }, {
+    "name" : "inntektsaar",
+    "type" : "string",
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:inntektsaar"
+  }, {
+    "name" : "skjermet",
+    "type" : [ "null", "boolean" ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:skjermet"
+  }, {
+    "name" : "registreringstidspunkt",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:skattemeldingutflatet:v2019:registreringstidspunkt"
+  } ]
+}

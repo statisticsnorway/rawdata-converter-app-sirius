@@ -1,0 +1,27 @@
+{
+  "type" : "record",
+  "name" : "Hendelse",
+  "fields" : [ {
+    "name" : "sekvensnummer",
+    "type" : "long",
+    "source" : "element urn:no:skatteetaten:datasamarbeid:hendelser:v1:sekvensnummer"
+  }, {
+    "name" : "identifikator",
+    "type" : "string",
+    "source" : "element urn:no:skatteetaten:datasamarbeid:hendelser:v1:identifikator"
+  }, {
+    "name" : "gjelderPeriode",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:hendelser:v1:gjelderPeriode"
+  }, {
+    "name" : "registreringstidspunkt",
+    "type" : "string",
+    "source" : "element urn:no:skatteetaten:datasamarbeid:hendelser:v1:registreringstidspunkt"
+  }, {
+    "name" : "hendelsetype",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "source" : "element urn:no:skatteetaten:datasamarbeid:hendelser:v1:hendelsetype"
+  } ]
+}
