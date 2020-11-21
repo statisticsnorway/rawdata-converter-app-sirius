@@ -77,9 +77,7 @@ public class SiriusRawdataConverter implements RawdataConverter {
 
         String targetNamespace = "dapla.rawdata.ske.skatt." + msg.getTopic().orElse("dataset");
         AggregateSchemaBuilder targetSchemaBuilder = new AggregateSchemaBuilder(targetNamespace)
-          .schema("manifest", manifestSchema)
-          .schema(FIELDNAME_DC_MANIFEST, dcManifestSchemaAdapter.getDcManifestSchema())
-          .schema(FIELDNAME_CONVERTER_MANIFEST, converterManifestSchema);
+          .schema("manifest", manifestSchema);
 
         dataSchemas.forEach(schema -> {
             targetSchemaBuilder.schema(schema.getTargetItemName(), schema.getSchema());
