@@ -39,12 +39,6 @@
         <dependencies>
             <dependency>
                 <groupId>no.ssb.rawdata.converter</groupId>
-                <artifactId>rawdata-converter-coredux</artifactId>
-                <version>0.6.3-SNAPSHOT</version>
-            </dependency>
-
-            <dependency>
-                <groupId>no.ssb.rawdata.converter</groupId>
                 <artifactId>rawdata-converter-bom</artifactId>
                 <version>${rawdata-converter.version}</version>
                 <scope>import</scope>
