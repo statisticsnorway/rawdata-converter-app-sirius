@@ -37,18 +37,18 @@ public class SiriusSchemas {
     }
 
     public static SchemaAdapter getBySchemaDescriptor(SchemaDescriptor schemaSource) {
-        SchemaAdapter fregSchemaAdapter = SCHEMAS.stream()
+        SchemaAdapter schemaAdapter = SCHEMAS.stream()
           .filter(schema -> schema.getSchemaName().equalsIgnoreCase(schemaSource.getSchemaName()))
           .findFirst()
           .orElseThrow(() ->
             new SchemaNotFoundException("No schema found for " + schemaSource.getSchemaName()));
-        fregSchemaAdapter = merge(fregSchemaAdapter, schemaSource);
+        schemaAdapter = merge(schemaAdapter, schemaSource);
 
-        return fregSchemaAdapter;
+        return schemaAdapter;
     }
 
-    private static SchemaAdapter merge(SchemaAdapter fregSchemaAdapter, SchemaDescriptor overrides) {
-        SchemaAdapter.SchemaAdapterBuilder builder = fregSchemaAdapter.toBuilder();
+    private static SchemaAdapter merge(SchemaAdapter schemaAdapter, SchemaDescriptor overrides) {
+        SchemaAdapter.SchemaAdapterBuilder builder = schemaAdapter.toBuilder();
         if (overrides.getRawdataItemName() != null) {
             builder.rawdataItemName(overrides.getRawdataItemName());
         }
