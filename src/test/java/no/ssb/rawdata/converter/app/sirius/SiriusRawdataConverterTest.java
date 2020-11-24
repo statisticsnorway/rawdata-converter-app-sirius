@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Set;
 
+@Disabled
 public class SiriusRawdataConverterTest {
 
     static RawdataMessageFixtures fixtures;
