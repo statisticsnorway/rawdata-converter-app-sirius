@@ -2,10 +2,11 @@
 # Project Specific
 ######################
 /target/classes/static/**
-/src/test/javascript/coverage/
+/src/test/resources/rawdata-messages/private
 **/target/*
 /bip
 application-local-private.yml
+
 
 ######################
 # Node
