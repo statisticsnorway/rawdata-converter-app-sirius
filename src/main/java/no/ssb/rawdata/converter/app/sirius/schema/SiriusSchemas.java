@@ -32,6 +32,20 @@ public class SiriusSchemas {
             .rawdataItemName("skattemelding")
             .targetItemName("skattemeldingUtflatet")
             .rootElementName("skattemeldingUtflatet")
+            .build(),
+          SchemaAdapter.builder()
+            .schemaName("sirius-skattemelding-utflatet-2019-v1_2")
+            .schema(readAvroSchema("schema/sirius-skattemelding-utflatet-2019-v1_2.avsc"))
+            .rawdataItemName("skattemelding")
+            .targetItemName("skattemeldingUtflatet")
+            .rootElementName("skattemeldingUtflatet")
+            .build(),
+          SchemaAdapter.builder()
+            .schemaName("sirius-skattemelding-2020-v8_0")
+            .schema(readAvroSchema("schema/sirius-skattemelding-2020-v8_0.avsc"))
+            .rawdataItemName("skattemelding")
+            .targetItemName("skattemelding")
+            .rootElementName("skattemelding")
             .build()
         );
     }
