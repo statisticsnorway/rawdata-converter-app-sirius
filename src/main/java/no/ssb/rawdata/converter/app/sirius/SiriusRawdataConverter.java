@@ -52,6 +52,10 @@ public class SiriusRawdataConverter implements RawdataConverter {
         this.dataSchemas = converterConfig.getDataElements()
           .stream().map(schemaDescriptor -> SiriusSchemas.getBySchemaDescriptor(schemaDescriptor))
           .collect(Collectors.toSet());
+        if (dataSchemas.isEmpty()) {
+            throw new SiriusRawdataConverterException("No data elements configured. Make sure to specify at least one target schema (app-config.data-elements[].schema-name)");
+        }
+
         this.requiredRawdataItems = dataSchemas.stream()
           .filter(schema -> !schema.getOptional())
           .map(schema -> schema.getRawdataItemName())

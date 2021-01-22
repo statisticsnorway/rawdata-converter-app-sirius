@@ -12,8 +12,6 @@ import no.ssb.rawdata.converter.core.pseudo.FieldPseudonymizerFactory;
 import no.ssb.rawdata.converter.util.Json;
 
 import javax.inject.Singleton;
-import java.util.Map;
-import java.util.Objects;
 
 @Singleton
 @RequiredArgsConstructor
@@ -24,18 +22,20 @@ public class DefaultRawdataConverterFactory implements RawdataConverterFactory {
 
     @Override
     public RawdataConverter newRawdataConverter(ConverterJobConfig jobConfig, String converterConfigJson) {
+        return newRawdataConverter(jobConfig);
+    }
+
+    public RawdataConverter newRawdataConverter(ConverterJobConfig jobConfig) {
         SiriusRawdataConverterConfig converterConfig = defaultRawdataConverterConfig;
 
-        if (converterConfigJson != null) {
+        if (! jobConfig.getAppConfig().isEmpty()) {
             try {
-                converterConfig = Json.toObject(SiriusRawdataConverterConfig.class, converterConfigJson);
+                converterConfig = Json.toObject(SiriusRawdataConverterConfig.class, jobConfig.appConfigJson());
             }
             catch (Exception e) {
-                throw new RawdataConverterException("Invalid SiriusRawdataConverterConfig params: " + converterConfigJson, e);
+                throw new RawdataConverterException("Invalid SiriusRawdataConverterConfig params: " + jobConfig.appConfigJson(), e);
             }
         }
-
-        Objects.requireNonNull(converterConfig.getPeriod(), "Missing SiriusRawdataConverterConfig.period");
 
         return newRawdataConverter(jobConfig, converterConfig);
     }
