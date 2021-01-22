@@ -5,8 +5,8 @@
 /src/test/resources/rawdata-messages/private
 **/target/*
 /bip
+/ext
 application-local-private.yml
-
 
 ######################
 # Node
