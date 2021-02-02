@@ -21,10 +21,6 @@ public class DefaultRawdataConverterFactory implements RawdataConverterFactory {
     private final SiriusRawdataConverterConfig defaultRawdataConverterConfig;
 
     @Override
-    public RawdataConverter newRawdataConverter(ConverterJobConfig jobConfig, String converterConfigJson) {
-        return newRawdataConverter(jobConfig);
-    }
-
     public RawdataConverter newRawdataConverter(ConverterJobConfig jobConfig) {
         SiriusRawdataConverterConfig converterConfig = defaultRawdataConverterConfig;
 
