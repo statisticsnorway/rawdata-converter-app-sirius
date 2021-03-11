@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: rawdata-converter-app-kostra
+    name: rawdata-converter-app-sirius
   config-client:
     enabled: true
 gcp:
