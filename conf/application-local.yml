@@ -1,5 +1,4 @@
 micronaut:
-  application.name: rawdata-converter-app-sirius
   server:
     port: 8080
 
@@ -20,16 +19,13 @@ services:
   dapla-metadata-distributor:
     impl: MOCK
 
-pseudo-secrets:
+pseudo.secrets:
   secret1:
-    content: C5sn7B4YtwcilAwuVx6NuAsMWLusOSA/ldia40ZugDI=
+    content: testkeycilAwuVx6NuAsMWLusOSA/ldia40ZugDI=
     type: AES256
 
 rawdata.sources:
   skatt:
-    encryption:
-      key: blah
-      salt: blahblah
     rawdata-client:
       provider: filesystem
       local-temp-folder: temp
@@ -51,17 +47,17 @@ rawdata.converter:
       debug:
         dryrun: false
         development-mode: true
-        log-rawdata-content-allowed: true
-        store-failed-messages: true
-        failed-messages-storage-path: /tmp/failed-messages
-        store-all-messages: false
-        all-messages-storage-path: ./rawdata-messages-output
+        log-failed-rawdata: false
+        store-failed-rawdata: true
+        local-storage-path: ./rawdata-messages-output
       converter-settings:
         rawdata-samples: 1
         max-records-before-flush: 1000000
         max-seconds-before-flush: 300
       rawdata-source:
         name: skatt
+        encryption-key: blah
+        encryption-salt: blahblah
       target-storage:
         type: filesystem
         root: file://../localenv/datastore
