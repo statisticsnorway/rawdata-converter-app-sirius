@@ -46,6 +46,13 @@ public class SiriusSchemas {
             .rawdataItemName("skattemelding")
             .targetItemName("skattemelding")
             .rootElementName("skattemelding")
+            .build(),
+          SchemaAdapter.builder()
+            .schemaName("sirius-skattemelding-utflatet-2020-v8_0")
+            .schema(readAvroSchema("schema/sirius-skattemelding-utflatet-2020-v8_0.avsc"))
+            .rawdataItemName("skattemelding")
+            .targetItemName("skattemelding")
+            .rootElementName("skattemelding")
             .build()
         );
     }
